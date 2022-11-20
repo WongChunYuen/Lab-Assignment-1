@@ -107,7 +107,7 @@ class _MyMovieReviewState extends State<MyMovieReview> {
         builder: (context) {
           return const Center(child: CircularProgressIndicator());
         });
-    Timer(const Duration(seconds: 2), () {
+    Timer(const Duration(seconds: 3), () {
       _getMovieList();
       Navigator.pop(context);
     });
